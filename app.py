@@ -17,7 +17,7 @@ from langchain_core.runnables import RunnablePassthrough, RunnableMap, RunnableL
 load_dotenv()
 
 # --- Streamlit UI ---
-st.title("Conversational RAG (LangChain 1.x Compatible)")
+st.title("Conversational RAG chatbot")
 st.sidebar.header("Configuration")
 
 api_key = st.sidebar.text_input("Enter your Groq API Key:", type="password")
