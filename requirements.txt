@@ -3,9 +3,9 @@ streamlit
 python-dotenv
 
 # LangChain core + community integrations
-langchain==0.3.7
-langchain-core==0.3.15
-langchain-community==0.3.7
+langchain
+langchain-core
+langchain-community
 langchain-groq
 langchain-huggingface
 langchain-text-splitters
